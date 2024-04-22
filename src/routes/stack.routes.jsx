@@ -11,7 +11,7 @@ const StackRoutes = () => {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Profile" component={Profile} />
-      <Stack.Screen name="Category" component={Category} />
+      <Stack.Screen name="Users" component={Users} />
     </Stack.Navigator>
   );
 };
